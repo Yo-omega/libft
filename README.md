@@ -1,2 +1,2 @@
 # libft
-preparation for 42school program
+preparation for 42school program.
