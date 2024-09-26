@@ -68,7 +68,7 @@ char **ft_split(char *str)
 	return tab;
 }
 
-int main()
+/*int main()
 {
 	char *str = "Hello World";
 	char **tab = ft_split(str);
@@ -81,4 +81,4 @@ int main()
 	}
 	free(tab);
 	return 0;
-}
+}*/
