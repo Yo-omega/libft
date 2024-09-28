@@ -6,27 +6,21 @@
 /*   By: kali <kali@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 19:17:31 by kali              #+#    #+#             */
-/*   Updated: 2024/09/27 17:56:04 by kali             ###   ########.fr       */
+/*   Updated: 2024/09/28 20:43:03 by kali             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-void *ft_memset(void *s, int c, size_t n)
+void	*ft_memset(void *s, int c, size_t n)
 {
 	unsigned int	i;
 
 	i = 0;
 	while (i < n)
 	{
-		*(int *)s = c;
-		s++;
+		*(char *)(s + i) = c;
 		i++;
-	}
-	while (i != 0)
-	{
-		s--;
-		i--;
 	}
 	return (s);
 }
