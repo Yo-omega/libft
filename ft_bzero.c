@@ -6,15 +6,15 @@
 /*   By: kali <kali@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/27 17:30:15 by kali              #+#    #+#             */
-/*   Updated: 2024/09/27 17:55:36 by kali             ###   ########.fr       */
+/*   Updated: 2024/09/27 21:24:33 by kali             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-void *ft_memset(void *s, int c, size_t n);
+void	*ft_memset(void *s, int c, size_t n);
 
-void ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);
 }
