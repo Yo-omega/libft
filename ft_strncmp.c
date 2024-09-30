@@ -6,13 +6,15 @@
 /*   By: kali <kali@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 12:40:50 by kali              #+#    #+#             */
-/*   Updated: 2024/09/26 12:44:32 by kali             ###   ########.fr       */
+/*   Updated: 2024/09/30 20:29:21 by kali             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	strncmp(const char *s1, const char *s2, unsigned int n)
+#include <string.h>
+
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	unsigned int	i;
+	size_t	i;
 
 	i = 0;
 	while (s1[i] == s2[i] && i < n - 1)
