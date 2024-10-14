@@ -52,6 +52,5 @@ Mkfile.old
 dkms.conf
 
 #my ignores:
-*.pdf
-test*
+*test*
 .vscode/*
